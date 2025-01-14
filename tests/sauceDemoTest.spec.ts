@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import * as saucedemo from '../page-objects/sauceDemoTest.spec';
+import * as saucedemo from '../page-objects/sauceDemoPOM.spec';
 import { describe } from 'node:test';
 
 test.beforeEach(async ({ page }) => {
